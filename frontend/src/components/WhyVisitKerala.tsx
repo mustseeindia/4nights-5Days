@@ -4,22 +4,22 @@ interface WhyVisitKeralaProps {
 
 const destinations = [
     {
-        image: '/assets/munnar-tea.dim_800x600.jpg',
+        image: './assets/munnar-tea.dim_800x600.jpg',
         label: 'Munnar Tea Gardens',
         highlight: 'Misty hills blanketed in emerald tea estates — a photographer\'s paradise.',
     },
     {
-        image: '/assets/thekkady-wildlife.dim_800x600.jpg',
+        image: './assets/thekkady-wildlife.dim_800x600.jpg',
         label: 'Thekkady Wildlife',
         highlight: 'Periyar Tiger Reserve — spot elephants, bison & exotic birds in the wild.',
     },
     {
-        image: '/assets/alleppey-houseboat.dim_800x600.jpg',
+        image: './assets/alleppey-houseboat.dim_800x600.jpg',
         label: 'Alleppey Private Houseboat',
         highlight: 'Glide through serene backwaters on your own private houseboat with meals.',
     },
     {
-        image: '/assets/kovalam-beach.dim_800x600.jpg',
+        image: './assets/kovalam-beach.dim_800x600.jpg',
         label: 'Kovalam Beach Sunset',
         highlight: 'Golden sunsets, lighthouse views & the gentle rhythm of Arabian Sea waves.',
     },
