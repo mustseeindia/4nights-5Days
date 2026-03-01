@@ -238,7 +238,7 @@ export default function HeroSection({ onOpenLeadForm }: HeroSectionProps) {
             {/* ── Background image ── */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/assets/4n5dheader.jpg"
+                    src="./assets/4n5dheader.jpg"
                     alt="Kerala houseboat on backwaters with couple"
                     className="w-full h-full object-cover object-center"
                     loading="eager"
