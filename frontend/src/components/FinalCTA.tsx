@@ -5,12 +5,11 @@ interface FinalCTAProps {
 export default function FinalCTA({ onOpenLeadForm }: FinalCTAProps) {
     return (
         <section
-            className="py-20 md:py-28 text-center"
-            style={{ backgroundColor: 'oklch(0.24 0.1 155)' }}
+            className="py-20 md:py-28 text-center bg-cream"
             aria-label="Final call to action"
         >
             <div className="max-w-2xl mx-auto px-4">
-                {/* Decorative element */}
+
                 <div className="flex justify-center mb-6">
                     <div className="flex gap-1.5">
                         {['🌿', '🌊', '🏔️'].map((emoji, i) => (
@@ -19,12 +18,12 @@ export default function FinalCTA({ onOpenLeadForm }: FinalCTAProps) {
                     </div>
                 </div>
 
-                <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                <h2 className="font-display text-3xl md:text-5xl font-bold text-black mb-4 leading-tight">
                     Ready to Plan Your<br />
-                    <span style={{ color: 'oklch(0.88 0.1 80)' }}>Kerala Holiday?</span>
+                    <span className="text-indigo-700">Kerala Holiday?</span>
                 </h2>
 
-                <p className="font-body text-white/70 text-base md:text-lg mb-8 max-w-lg mx-auto">
+                <p className="font-body text-gray-600 text-base md:text-lg mb-8 max-w-lg mx-auto">
                     Join thousands of happy travelers who've experienced the magic of Kerala with us.
                 </p>
 
@@ -35,10 +34,11 @@ export default function FinalCTA({ onOpenLeadForm }: FinalCTAProps) {
                     Get Best Price Now →
                 </button>
 
-                <p className="font-body text-white/60 text-sm flex items-center justify-center gap-2">
+                <p className="font-body text-gray-500 text-sm flex items-center justify-center gap-2">
                     <span className="inline-block w-2 h-2 rounded-full bg-green-400 animate-pulse" />
                     Our Kerala expert will contact you within 10 minutes.
                 </p>
+
             </div>
         </section>
     );
