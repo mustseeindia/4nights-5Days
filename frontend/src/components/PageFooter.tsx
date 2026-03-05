@@ -5,22 +5,21 @@ export default function PageFooter() {
     return (
         <footer
             className="py-8 text-center"
-            style={{ backgroundColor: 'oklch(0.18 0.08 155)' }}
+            style={{ backgroundColor: '#0B3C91' }}
             aria-label="Page footer"
         >
             <div className="max-w-4xl mx-auto px-4">
-                <p className="font-body text-white/40 text-xs">
+                <p className="font-body text-white text-xs">
                     © {year} IndiaTourPackages. All rights reserved.
                 </p>
-                <p className="font-body text-white/30 text-xs mt-1">
+
+                <p className="font-body text-white text-xs mt-1">
                     Built by{' '}
-                    <span className="text-red-400"></span>{' '}
-                    {' '}
                     <a
-                        href={`https://www.linkedin.com/in/yashwant-k-511313219/`}
+                        href="https://www.linkedin.com/in/yashwant-k-511313219/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="underline hover:text-white/50 transition-colors"
+                        className="underline hover:text-white/80 transition-colors"
                     >
                         Yashwant.K
                     </a>
