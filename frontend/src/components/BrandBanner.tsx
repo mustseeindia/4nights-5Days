@@ -7,7 +7,7 @@ export default function BrandBanner() {
         >
             <div className="flex items-center gap-3">
                 <img
-                    src="/assets/Gemini_Generated_Image_guhb0eguhb0eguhb-removebg-preview-1.png"
+                    src="./assets/Gemini_Generated_Image_guhb0eguhb0eguhb-removebg-preview-1.png"
                     alt="IndiaTourPackages logo"
                     className="h-10 md:h-12 w-auto object-contain flex-shrink-0"
                     style={{ background: "none" }}
