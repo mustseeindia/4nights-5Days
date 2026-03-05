@@ -248,12 +248,7 @@ export default function HeroSection({ onOpenLeadForm }: HeroSectionProps) {
             </div>
 
             {/* ── Three.js 3D Canvas (behind text, no pointer events) ── */}
-            <div
-                className="absolute inset-0 z-[1]"
-                style={{ pointerEvents: 'none' }}
-            >
-                <ParallaxCanvas />
-            </div>
+            
 
             {/* ── Content ── */}
             <div className="relative z-10 w-full max-w-5xl mx-auto px-4 py-12 md:py-20 flex flex-col items-center text-center">
