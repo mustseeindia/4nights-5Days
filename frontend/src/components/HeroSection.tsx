@@ -272,9 +272,9 @@ export default function HeroSection({ onOpenLeadForm }: HeroSectionProps) {
 
                 {/* Headline with 3D gradient text effect */}
                 <h1
-                    className={`font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 hero-headline hero-badge-anim ${mounted ? 'hero-visible' : 'hero-hidden'}`}
-                    style={{ animationDelay: '0.15s' }}
-                >
+className={`font-[Montserrat] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 text-white hero-badge-anim ${mounted ? 'hero-visible' : 'hero-hidden'}`}
+style={{ animationDelay: '0.15s' }}
+>
                     4 Nights 5 Days Kerala Tour Package
                     <span className="block hero-subline text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2">
                         Munnar, Thekkady &amp; Houseboat
@@ -301,15 +301,7 @@ export default function HeroSection({ onOpenLeadForm }: HeroSectionProps) {
                         className="btn-gold px-7 py-3.5 rounded-lg text-base font-bold shadow-lg hero-cta-primary"
                     >
                         Get Best Quote in 10 Minutes
-                    </button>
-                    <a
-    href="https://www.indiatourpackages.com/detail/kerala-dream-escape-with-houseboat"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="px-7 py-3.5 rounded-lg text-base font-bold border-2 border-white text-white hover:bg-white/10 transition-colors font-body hero-cta-secondary inline-block"
->
-    Check Availability
-</a>
+                
                 </div>
 
                 {/* Urgency */}
